@@ -2,6 +2,8 @@
 
 Recycling an ancient Raspberry Pi Model B Rev 2 to make a simple internet radio with OLED display and 4 push buttons to change channel and volume. Tested on headless Raspbian Buster Lite, and an Edimax USB wifi dongle.
 
+![image](https://raw.githubusercontent.com/blogmywiki/piOLEDradio/main/OLED%20radio%20photo%20small.JPG)
+
 ## Re-requistes
 There are many, including but probably not limited to:
 - generic I2C OLED display connected to I2C pins on the Pi
