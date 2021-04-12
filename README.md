@@ -1,6 +1,6 @@
 # piOLEDradio
 
-Recycling an ancient Raspberry Pi Model B Rev 2 to make a simple internet radio with OLED display and 4 push buttons to change channel and volume. Tested in headless Raspbian Buster Lite, and an Edimax USB wifi dongle.
+Recycling an ancient Raspberry Pi Model B Rev 2 to make a simple internet radio with OLED display and 4 push buttons to change channel and volume. Tested on headless Raspbian Buster Lite, and an Edimax USB wifi dongle.
 
 ## Re-requistes
 There are many, including but probably not limited to:
