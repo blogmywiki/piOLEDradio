@@ -17,7 +17,7 @@ There are many, including but probably not limited to:
 `sudo nano /lib/systemd/system/myscript.service`
 
 add these lines:
-`
+```
 [Unit]
 
 Description=OLED display radio
@@ -33,7 +33,7 @@ ExecStart=/usr/bin/python3 /home/pi/radio.py
 [Install]
 
 WantedBy=network-online.target
-`
+```
 
 Save and exit with Ctrl+x,Y and ENTER.
 
