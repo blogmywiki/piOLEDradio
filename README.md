@@ -1,13 +1,13 @@
 # piOLEDradio
 
-Recycling an ancient Raspberry Pi Model B Rev 2 to make a simple internet radio with OLED display and 4 push buttons to change channel and volume.
+Recycling an ancient Raspberry Pi Model B Rev 2 to make a simple internet radio with OLED display and 4 push buttons to change channel and volume. Tested in headless Raspbian Buster Lite, and an Edimax USB wifi dongle.
 
 ## Re-requistes
 There are many, including but probably not limited to:
 - generic I2C OLED display connected to I2C pins on the Pi
 - push buttons connected to on one side to pins 17, 27, 22 and 10 and on the other to GND
 - I2C enabling on the Pi using raspi-config
-- install MPC / MPD and add a bunch of online radio stations 
+- install MPC / MPD and add a bunch of online radio stations with `mpc add http://icecast.radiofrance.fr/fip-midfi.mp3` etc
 - install pip3
 - install this OLED Python library: https://github.com/rm-hull/luma.oled 
 - install guizero Python library
