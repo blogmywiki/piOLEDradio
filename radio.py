@@ -31,9 +31,10 @@ while True:
         today_last_time = today_time
         with canvas(device) as draw:
             now = datetime.datetime.now()
-            draw.text((0,0), station_list[station], font=font2, fill="white")
             today_date = now.strftime("%d %b %y")
-            draw.text((0, 51), today_date+"     "+today_time, font=font3, fill="white")
+            draw.text((0,0), station_list[station], font=font2, fill="white")
+            draw.text((0,30), "volume " +  "O"*int(volume/10), font=font3, fill="white")
+            draw.text((0,51), today_date+"     "+today_time, font=font3, fill="white")
     if btn_ch_up.is_pressed:
         station += 1
         if station > 7:
